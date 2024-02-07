@@ -1,0 +1,38 @@
+html {
+    background-color: rgb(53, 78, 103);
+    color: white;
+}
+
+pre {
+    background-color: slategray;
+    border-radius: 4px;
+    box-shadow: 0 0 2px black;
+    min-width: fit-content;
+    padding-inline: 1rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1rem;
+}
+
+.homeBtn {
+    height: 4rem;
+    width: 4rem;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    border-radius: 100%;
+    box-shadow: 0 0 2px white;
+}
+
+.homeBtn img {
+    height: 100%;
+}
+
+.homeBtn:hover {
+    transform-origin: center;
+    transform: scale(1.05);
+    transition: transform .1s ease-out;
+}
